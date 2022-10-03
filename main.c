@@ -1,9 +1,15 @@
 #include <stdio.h>
 void main()
 {
-    int a;
-    scanf("%d", &a);
-    printf("Hello World!\n");
-    a += 1;
-    printf("The num is: %d\n", a);
+    int pole[5];
+    for(int i = 0; i<5; i++)
+    {
+        scanf("%i", &pole[i]);
+    }
+    for(int i = 0; i<5; i++)
+    {
+        printf("%i", pole[i]);
+    }
+    printf("\n");
+
 }
